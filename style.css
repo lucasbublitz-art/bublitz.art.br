@@ -1,59 +1,17 @@
+*{
+  overflow: hidden
+}
 body{
-  overflow: hidden;
-  font: 15px Monospace;
-  background: #000;
-  color: transparent;
+  background-color: midnightblue;
 }
-.matrix{
-  width: content;
+#main_title{
   position: absolute;
-  left: 50%;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  color: antiquewhite;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: xx-large;
   padding: 20px;
-  padding-top: 40px;
-  border: 1px solid rgba(0, 200, 70, 0.1);
-  box-shadow: 0px 0px 5px rgba(0, 200, 70, 0.1);
-}
-.title{
-  position: absolute;
-  left: 50%;
-  top: 20px;
-  transform: translate(-50%, -50%);
-  display: block;
-  width: auto;
-  height: 40px;
-  background: #000;
-  color: #f0f;
-  text-align: center;
-  line-height: 40px;
-}
-
-.char{
-  display: box;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  vertical-align: middle;
-  text-shadow: 0px 0px 10px;
-  color: rgb(0, 200, 70);
-  opacity: 0;
-}
-.charLight{
-  color: rgb(200, 255, 200) !important;
-  opacity: 1 !important;
-}
-.hr{
-  position: sticky;
-  left: 50%;
-  top: 20px;
-  transform: translate(-50%, -50%);
-  display: block;
-  width: 100%;
-  margin-right: 20px;
-  height: 1px;
-  background: #f0f;
+  border: 1px solid;
 }
